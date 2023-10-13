@@ -1,0 +1,425 @@
+/* all common css start */
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul,li{
+    list-style: none;
+}
+.container{
+    width: 1170px;
+    margin: 0 auto;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+    line-height: 0.8;
+}
+.mr{
+    margin-right: 0 !important;
+}
+/* all common css end */
+
+/* Header part css start */
+#header_part{
+    background-color: rgba(0, 0, 0, 0.384);
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+.logo_with_menu{
+    display: flex;
+}
+.logo{
+    width: 270px;
+    padding-top: 30px;
+
+}
+.menu{
+    width: 900px;
+    text-align: right;
+}
+.menu ul li{
+    display: inline-block;
+}
+.menu ul li a{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    padding-left: 45px;
+    line-height: 90px;
+    transition: .5s;
+}
+.menu ul li a:hover{
+    color: #28b8d8;
+}
+
+/* Header part css end */
+
+/* banner part css start */
+#banner_part{
+    padding-top: 330px;
+    padding-bottom: 250px;
+    background-image: url(../image/bannar.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner_text{
+    text-align: center;
+}
+.banner_text h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    padding: 20px 0;
+}
+.banner_text h3{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
+    padding: 20px 0;
+}
+.banner_text p{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
+}
+
+/* banner part css end */
+
+/* service part css start */
+#service_part{
+    padding: 80px 0;
+    background: #f9f9f9;
+}
+.service_head_text{
+    text-align: center;
+}
+.service_head_text h3{
+    font-size: 30px;
+    font-weight: 300;
+    font-family: 'Roboto Slab', serif;
+    color: #444;
+}
+.service_head_text p{
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    color: #666;
+    padding: 25px 0 75px 0;
+}
+.service_head_text h4{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #444;
+}
+.service_item_part{
+    margin-top: 30px;
+    display: flex;
+}
+.service_item{
+    width: 368px;
+    border: 1px solid #e3e3e3;
+    padding: 15px;
+    align-items: center;
+    margin-right: 30px;
+}
+.service_item img{
+    width: 100%;
+}
+.service_item_botton_text{
+    text-align: center;
+}
+.service_item_botton_text h3{
+    color: #444;
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    padding-bottom: 10px;
+    padding-top: 25px;
+}
+.service_item_botton_text p{
+    color: #666;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+    padding: 0 15px;
+    line-height: 22px;
+}
+/* service part css end */
+
+
+/* social_gallery css start */
+
+#social_gallery{
+    height: 595px;
+    background: #2c2c2c;
+}
+.social_gallery_text{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 25px;
+    color: #fff;
+    position: relative;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.social_gallery_text::before {
+    content: '';
+    width: 100px;
+    height: 1px;
+    top: 61%;
+    left: 420px;
+    background: #535353;
+    position: absolute;
+    transform: translateY(-50%);
+}
+.social_gallery_text::after {
+    content: '';
+    width: 100px;
+    height: 1px;
+    top: 61%;
+    left: 980px;
+    background:  #535353;
+    position: absolute;
+    transform: translateY(-50%);
+}
+
+.social_gallery_image{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social_gallery_img img{
+    width: 100%;
+    height: 320px;
+}
+.social_button{
+    width: 180px;
+    height: 50px;
+    margin: 0 auto;
+    border: 1px solid grey;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+.social_button_text{
+    text-align: center;
+    padding-top: 15px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+}
+.social_button_text img{
+    padding-right: 5px;
+    padding-top: 3px;
+}
+
+/* social Gallery css end */
+
+/* Journal part css start */
+.service_head_text{
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: 700;
+    padding-top: 78px;
+    position: relative;
+    color: #444444;
+}
+.service_head_text::before {
+    content: '';
+    width: 100px;
+    height: 1px;
+    top: 89%;
+    left: 359px;
+    background: #535353;
+    position: absolute;
+    transform: translateY(-50%);
+}
+.service_head_text::after {
+    content: '';
+    width: 100px;
+    height: 1px;
+    top: 88%;
+    left: 711px;
+    background: #535353;
+    position: absolute;
+    transform: translateY(-50%);
+}
+#journal_part{
+    padding: 80px 0;
+    height: 100vh;
+    background: #f9f9f9;
+}
+.service_item{
+    text-align: center;
+    padding: 10px;
+    color: #444444;
+}
+.service_item h2{
+    padding-top: 26px;
+    padding-bottom: 15px;
+    font-size: 16px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
+    color: #444444;
+}
+.service_item h5{
+    padding-bottom: 25px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #666666;
+}
+.service_item_botton_text p{
+    padding-top: 25px;
+    font-size: 14px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #666666;
+}
+.service_item_botton_text h3{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 11px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #666666;
+    text-decoration: underline;
+}
+
+/* Journal part css end */
+
+/* Hero part css start */
+.hero_section_content{
+    margin-top: 80px;
+    padding-bottom: 50px;
+}
+.hero_text_one{
+    display: flex;
+    justify-content: start;
+  }
+  .hero_section_content{
+    display: flex;
+  }
+  .content_one h3{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: roboto;
+    color: #444444;
+    text-transform: uppercase;
+    padding-bottom: 30px;
+  }
+  .hero_image{
+    margin-right: 40px;
+    width: 200px;
+    height: 280px;
+  }
+.hero_image_text{
+    padding: 0 120px;
+}
+.content_one h6{
+    font-size: 18px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    color: #444444;
+    line-height: 25px;
+  }
+.content_one p{
+    font-size: 14px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    color: #444444;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 30px;
+    line-height: 25px;
+  }
+
+  .content_two h3{
+    font-size: 18px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    color: #444444;
+  }
+  .content_two h6{
+    font-size: 17px;
+    font-weight: 700;
+    font-family: 'Roboto Slab', serif;
+    margin-top: 10px;
+    padding-top: 10px;
+    line-height: 25px;
+  }
+  .content_two p{
+    font-size: 14px;
+    font-weight: 300;
+    font-family: 'Roboto', sans-serif;
+    line-height: 25px;
+  } 
+/* Hero part css end */
+
+/* bottom part css start */
+
+#bottom {
+    margin-top: 35%;
+    height: 400px;
+    background: #373737;
+}
+  .bottom_text{
+    display: flex;
+  }
+  .bottom_text h3{
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+  .bottom_text_one{
+    color: #cacaca;
+    text-align: left;
+    line-height: 1.0;
+    font-size: 14px;
+    padding: 20px;
+    padding-right: 30px;
+    font-family: 'Roboto', sans-serif;
+  }
+  .bottom_text_one h3{
+    line-height: 40px;
+  }
+  .bottom_text_one p{
+    line-height: 20px;
+  }
+  .bottom_copyright{
+    width: 100%;
+    height: 90px;
+    background: #333333;
+    margin-top: 100px;
+  }
+  .bottom_copyright P{
+    padding-left: 270px;
+    padding-top: 30px;
+    color: #cacaca;
+    font-size: 14px;
+    text-align: left;
+  }
+/* bottom part css end */
+
+/* Header part css start */
+/* Header part css end */
